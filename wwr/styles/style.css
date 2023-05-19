@@ -1,7 +1,5 @@
 #content {
     margin: 0 auto;
-}
-.content {
     max-width: 1600px;
 }
 
@@ -12,15 +10,21 @@ nav a {
 }
 
 #hero-msg h1, #hero-msg h4 {text-align: center;}
+#hero-img {
+    width: 100%;
+}
 .button-box {text-align: center;}
-main section {text-align: center;}
+main {text-align: center;}
 #background {
     height: 725px;
     background-color: #CAF0F8
 }
 
 body {background-color: #C0D0D3; }
-header {background-color:rgba(20,30,13, .7);
+header {
+    background-color:rgba(20,30,13, .7);
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 nav a:hover {
     background-color: black;
@@ -66,6 +70,11 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 }
-.icon {
+.icon, .logo {
     width: 80px
+}
+#logo_link {
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
 }

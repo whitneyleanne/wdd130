@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volcanoes Around the World</title>
+</head>
+<body>
+
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img src="images/volcanoes.png" alt="Logo image">
+                </a>
+                <nav>
+                    <a href="index.html">Home</a>
+                    <a href="volcanoinfo.html">Volcanoes</a>
+                    <a href="news.html">News</a>
+                </nav>
+        </header>
+        <div id="smoke-box">
+            <div class="carousel">
+                <img src="images/twin_volcano.jpeg" alt="Image 1">
+                <img src="images/volcano1.jpg" alt="Image 2">
+                <img src="images/volcano3.jpg" alt="Image 3">
+                <!-- Add more images here -->
+            </div>
+        </div>
+        
+            <section id="smoke-msg">
+                <h1 class="home-title">Welcome to Volcanoes Around the World!</h1>
+            </section>
+        </div>
+
+    <main class="home-grid">
+        <section class="intro">
+            <h2>An Introduction...</h2>
+            <p>Welcome to my comprehensive website on volcanoes! Whether you're a curious individual fascinated by the raw power of these natural wonders or a traveler planning a thrilling adventure to witness the awe-inspiring beauty of a volcano up close, you've come to the right place. My goal is to provide you with a wealth of information about volcanoes, including different types, danger levels, and everything in between. Please note that this website does not serve as a comprehensive research resource for specific volcanoes. While we will mention certain volcanoes, it is crucial to conduct thorough research on any volcano you intend to visit. We strongly advise you to consult local websites that specialize in volcanoes for more detailed and up-to-date information relevant to your interests.</p>
+            <p>People will come to my site because of their genuine interest in volcanoes. They are eager to expand their knowledge and gain a better understanding of these majestic geological features so that if they decide to visit a volcano in the future, they can make informed decisions. This website will be a reliable and accessible source of information, catering to both beginners and enthusiasts. What questions will your visitors expect your site to answer for them? Visitors to our site will expect answers to a wide range of questions about volcanoes. Some common questions may include: What are the different types of volcanoes? How are volcanoes formed? What are the main characteristics of each volcano type? Which volcanoes are the most dangerous? Are there any warning signs before a volcanic eruption? What safety precautions should I take when visiting a volcano? What are some famous volcanoes around the world? Are there any active volcanoes near my travel destination? How can I differentiate between volcanic rocks and minerals? What are the environmental impacts of volcanic eruptions? What types of activities will visitors want to complete on your site? Visitors will have various activities in mind when exploring our website. These activities may include: Browsing through informative news articles. Viewing captivating photographs and videos of volcanic eruptions and landscapes. Accessing safety guidelines and travel recommendations for visiting volcanic areas. To complete the actions mentioned above, visitors will need access to accurate and up-to-date information. This includes comprehensive descriptions of different volcano types, eruption patterns, safety measures, travel tips, and the latest news on volcanic activity worldwide. Our visitors will choose our website over others because of the unique value we offer. I aim to present complex information in a clear and understandable manner, using engaging visuals and interactive elements to enhance the learning experience. Our content will be tailored to the needs and interests of our target audience, striking a balance between scientific accuracy and accessibility. Stay tuned for more captivating insights and practical guidance on all things volcanoes!</p>
+        </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick({
+                dots: true,
+                autoplay: true,
+                autoplaySpeed: 2000,
+                // You can customize the options here
+            });
+        });
+    </script>   
+</body>
+<footer>
+    <p>Volcanoes Around The World &copy; 2023 - Whitney Hansen</p>
+    <p><a href="site-plan.html">Site Plan</a></p>
+    <p><a href="news.html">News</a></p>
+    <div class="social">
+        <a href="https://facebook.com" target="_blank">
+            <img src="images/facebook.png" alt="fb icon">
+        </a>
+        <a href="https://twitter.com" target="_blank">
+            <img src="images/twitter.png" alt="twitter icon">
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <img src="images/instagram.png" alt="instagram icon">
+        </a>
+    </div>
+</footer>
+</html>

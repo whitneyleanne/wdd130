@@ -1,0 +1,130 @@
+
+@import url('https://fonts.google.com/specimen/Space+Grotesk');
+@import url('https://fonts.google.com/specimen/Hahmlet');
+
+#content {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+header {
+    background-color: #691E06;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 80px;
+}
+#logo_link {
+    justify-self: center;
+    align-self: center;
+    padding-top: 5px;
+    width: 100px;
+}
+#logo_link img {
+    max-width: 100%; /* Set the maximum width to fit its container */
+    height: auto; /* Preserve the image's aspect ratio */
+    width: 100px; /* Adjust the width as desired */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+nav a {
+    color: #FBBA72;
+    text-decoration: none;
+    padding: 35px;
+    font-size: 18px;
+    text-align: center; 
+}
+
+nav a:hover {
+    background-color: #FBBA72;
+    color:#CA5310
+}
+
+.home-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px; /* Adjust the maximum width as per your preference */
+    margin: 0 auto;
+}
+
+.home-grid .intro {
+    text-align: center;
+}
+
+footer {
+    background-color: #FBBA72;
+    color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color:#691E06;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#691E06
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer .social img {
+    padding-top: 15px;
+}
+
+#smoke-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+
+#smoke-msg h1, #smoke-msg h4 {
+    text-align: center;
+}
+
+#smoke-msg h4 {
+    color: #CA5310;
+}
+#smoke-msg h1 {
+    color: #CA5310;
+}
+
+#smoke-img {
+    width: 100%;
+}
+
+#smoke {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px; 
+}
+#smoke-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+.intro {
+    margin: 50px;
+    color:#CA5310;
+}
+.carousel img {
+        width: 250px; /* Adjust the width as per your requirement */
+        height: 450px; /* Adjust the height as per your requirement */
+        object-fit: cover; /* Maintain the aspect ratio and fill the container */
+}
+body {
+    background-color: white;
+}

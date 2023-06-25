@@ -128,3 +128,75 @@ footer .social img {
 body {
     background-color: white;
 }
+
+.volcano-grid section:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  
+  .fissure-image, .shield-image {
+    flex: 1;
+    order: 1;
+  }
+
+
+  .strato-image,.cinder-image
+   {
+    flex: 1;
+    order: 2;
+  }
+  
+  .strato-text,
+  .shield-text,
+  .cinder-text,
+  .fissure-text {
+    flex: 1;
+    order: 1;
+  }
+  
+  
+  
+
+  .strato-image, .cinder-image, .shield-image, .fissure-image {
+    max-width: 100%;
+    height: 200px;
+  }
+  .stratovolcano img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    order: 1;
+  }
+  .cindercone img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    order: 1;
+  }
+  .shield img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    order: 2;
+  }
+  .fissure img {
+    max-width: 100%;
+    width: 200px;
+    height: 200px;
+    order: 2;
+  }
+  
+  .section {
+    width: 25%;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+  }
+  .section img {
+    width: 200px;
+    height: 200px;
+  }
+  .section:hover {
+    box-shadow: 0 4px 8px #691E06; /* Adjusted shadow effect on hover */
+  }

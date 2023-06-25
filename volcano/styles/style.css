@@ -129,69 +129,19 @@ body {
     background-color: white;
 }
 
-.volcano-grid section:nth-child(even) {
-    flex-direction: row-reverse;
-  }
-  
-  .fissure-image, .shield-image {
-    flex: 1;
-    order: 1;
-  }
 
-
-  .strato-image,.cinder-image
-   {
-    flex: 1;
-    order: 2;
-  }
-  
-  .strato-text,
-  .shield-text,
-  .cinder-text,
-  .fissure-text {
-    flex: 1;
-    order: 1;
-  }
-  
-  
   
 
-  .strato-image, .cinder-image, .shield-image, .fissure-image {
-    max-width: 100%;
-    height: 200px;
-  }
-  .stratovolcano img {
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    order: 1;
-  }
-  .cindercone img {
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    order: 1;
-  }
-  .shield img {
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    order: 2;
-  }
-  .fissure img {
-    max-width: 100%;
-    width: 200px;
-    height: 200px;
-    order: 2;
-  }
-  
   .section {
     width: 25%;
+    margin: 10px;
     display: inline-block;
     text-align: center;
+    align-content: center;
     padding: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 4px #691E06;
     transition: box-shadow 0.3s;
+    background-color: white;
   }
   .section img {
     width: 200px;
@@ -200,3 +150,43 @@ body {
   .section:hover {
     box-shadow: 0 4px 8px #691E06; /* Adjusted shadow effect on hover */
   }
+  .section p {
+    color: #691E06;
+  }
+
+  .opener h2 {
+    color: #691E06;
+    text-align: center;
+  }
+  .opener p {
+    color: #691E06;
+    text-align: center;
+  }
+  .vsection {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.3s;
+  }
+
+  .vsection:nth-child(even) {
+    flex-direction: row;
+  }
+
+  .vsection-image {
+    flex: 1;
+    margin-right: 20px;
+  }
+
+  .vsection-text {
+    flex: 1;
+  }
+  .vsection img {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .vsection:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  

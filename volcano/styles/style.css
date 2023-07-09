@@ -77,6 +77,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
+    font-family: "Hahmlet", Helvetica, sans-serif;
 }
 footer p a:hover {
     text-decoration: underline;
@@ -93,6 +94,7 @@ footer .social img {
 
 #smoke-msg h1, #smoke-msg h4 {
     text-align: center;
+    font-family: "Space Grotesk", Helvetica, sans-serif;
 }
 
 #smoke-msg h4 {
@@ -121,9 +123,9 @@ footer .social img {
     color:#CA5310;
 }
 .carousel img {
-        width: 250px; /* Adjust the width as per your requirement */
-        height: 450px; /* Adjust the height as per your requirement */
-        object-fit: cover; /* Maintain the aspect ratio and fill the container */
+        width: 250px; 
+        height: 450px; 
+        object-fit: cover; 
 }
 body {
     background-color: white;
@@ -152,41 +154,69 @@ body {
   }
   .section p {
     color: #691E06;
+    font-family: "Hahmlet", Helvetica, sans-serif;
   }
 
   .opener h2 {
     color: #691E06;
     text-align: center;
+    font-family: "Space Grotesk", Helvetica, sans-serif;
   }
   .opener p {
     color: #691E06;
     text-align: center;
+    font-family: "Hahmlet", Helvetica, sans-serif;
   }
   .vsection {
     display: flex;
     flex-direction: row;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px #691E06;
     transition: box-shadow 0.3s;
+    background-color: #CA5310;
   }
 
   .vsection:nth-child(even) {
     flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .vsection:nth-child(odd) {
+    flex-direction: row;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
   }
 
   .vsection-image {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 30px;
+    max-width: 40%;
   }
 
   .vsection-text {
     flex: 1;
+    font-family: "Hahmlet", Helvetica, sans-serif;
+    max-width: 60%;
+    margin-left: 20px;
+    color: #FBBA72;
   }
   .vsection img {
     width: 500px;
     height: 500px;
+    
   }
   
   .vsection:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
+body {
+    background-color: #FBBA72;
+}

@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,32 +18,34 @@
         <header>
             <a id="logo_link" href="index.html">
                 <img src="images/volcanoes.png" alt="Logo image">
-                </a>
-                <nav>
-                    <a href="index.html">Home</a>
-                    <a href="volcanoinfo.html">Volcanoes</a>
-                    <a href="news.html">News</a>
-                </nav>
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="volcanoinfo.html">Volcanoes</a>
+                <a href="news.html">News</a>
+            </nav>
         </header>
         <div id="smoke-box">
             <div class="carousel">
-                <img src="images/twin_volcano.jpeg" alt="Image 1">
-                <img src="images/volcano1.jpg" alt="Image 2">
-                <img src="images/volcano3.jpg" alt="Image 3">
-                <!-- Add more images here -->
+              
+              <img src="images/twin_volcano.jpeg" alt="Image 1">
+              <img src="images/volcano1.jpg" alt="Image 2">
+              <img src="images/volcano3.jpg" alt="Image 3">
+            
             </div>
-        </div>
-        
-            <section id="smoke-msg">
-                <h1 class="home-title">Welcome to Volcanoes Around the World!</h1>
-            </section>
-        </div>
+          </div>
+          
+
+        <section id="smoke-msg">
+            <h1 class="home-title">Welcome to Volcanoes Around the World!</h1>
+        </section>
+    </div>
 
     <main class="home-grid">
         <section class="intro">
             <h2>An Introduction...</h2>
             <p>Welcome to my comprehensive website on volcanoes! Whether you're a curious individual fascinated by the raw power of these natural wonders or a traveler planning a thrilling adventure to witness the awe-inspiring beauty of a volcano up close, you've come to the right place. My goal is to provide you with a wealth of information about volcanoes, including different types, danger levels, and everything in between. Please note that this website does not serve as a comprehensive research resource for specific volcanoes. While we will mention certain volcanoes, it is crucial to conduct thorough research on any volcano you intend to visit. We strongly advise you to consult local websites that specialize in volcanoes for more detailed and up-to-date information relevant to your interests.</p>
-          
+
         </section>
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -49,27 +54,30 @@
         $(document).ready(function(){
             $('.carousel').slick({
                 dots: true,
+                arrows: true, // Enable arrows
+                prevArrow: '<button type="button" class="slick-prev">Previous</button>', // Customize previous arrow
+                nextArrow: '<button type="button" class="slick-next">Next</button>', // Customize next arrow
                 autoplay: true,
                 autoplaySpeed: 2000,
                 // You can customize the options here
             });
         });
-    </script>   
+    </script>
+    <footer>
+        <p>Volcanoes Around The World &copy; 2023 - Whitney Hansen</p>
+        <p><a href="site-plan.html">Site Plan</a></p>
+        <p><a href="news.html">News</a></p>
+        <div class="social">
+            <a href="https://facebook.com" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://twitter.com" target="_blank">
+                <img src="images/twitter.png" alt="twitter icon">
+            </a>
+            <a href="https://instagram.com" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
 </body>
-<footer>
-    <p>Volcanoes Around The World &copy; 2023 - Whitney Hansen</p>
-    <p><a href="site-plan.html">Site Plan</a></p>
-    <p><a href="news.html">News</a></p>
-    <div class="social">
-        <a href="https://facebook.com" target="_blank">
-            <img src="images/facebook.png" alt="fb icon">
-        </a>
-        <a href="https://twitter.com" target="_blank">
-            <img src="images/twitter.png" alt="twitter icon">
-        </a>
-        <a href="https://instagram.com" target="_blank">
-            <img src="images/instagram.png" alt="instagram icon">
-        </a>
-    </div>
-</footer>
 </html>

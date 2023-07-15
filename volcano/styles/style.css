@@ -123,12 +123,14 @@ footer .social img {
     color:#CA5310;
 }
 .carousel img {
-        width: 250px; 
+        width: 150px; 
         height: 450px; 
+        max-width: 90%;
         object-fit: cover; 
 }
 body {
     background-color: white;
+    font-family: "Hahmlet", Helvetica, sans-serif;
 }
 
 
@@ -219,4 +221,5 @@ body {
   
 body {
     background-color: #FBBA72;
+    font-family: "Hahmlet", Helvetica, sans-serif;
 }

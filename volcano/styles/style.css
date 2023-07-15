@@ -7,6 +7,12 @@
     max-width: 1600px;
 }
 
+#contentid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the sections within the container */
+    align-items: center;
+}
 header {
     background-color: #691E06;
     display: grid;
@@ -23,9 +29,9 @@ header {
     width: 100px;
 }
 #logo_link img {
-    max-width: 100%; /* Set the maximum width to fit its container */
-    height: auto; /* Preserve the image's aspect ratio */
-    width: 100px; /* Adjust the width as desired */
+    max-width: 100%; 
+    height: auto; 
+    width: 100px; 
 }
 
 nav {
@@ -98,10 +104,10 @@ footer .social img {
 }
 
 #smoke-msg h4 {
-    color: #CA5310;
+    color: #FBBA72;
 }
 #smoke-msg h1 {
-    color: #CA5310;
+    color: #FBBA72;
 }
 
 #smoke-img {
@@ -120,7 +126,7 @@ footer .social img {
 }
 .intro {
     margin: 50px;
-    color:#CA5310;
+    color:#FBBA72;
 }
 .carousel img {
         width: 150px; 
@@ -138,15 +144,16 @@ body {
 
   .section {
     width: 25%;
-    margin: 10px;
+    margin: 15px;
     display: inline-block;
     text-align: center;
     align-content: center;
     padding: 10px;
     box-shadow: 0 2px 4px #691E06;
     transition: box-shadow 0.3s;
-    background-color: white;
+    background-color: #FBBA72;
   }
+
   .section img {
     width: 200px;
     height: 200px;
@@ -160,12 +167,12 @@ body {
   }
 
   .opener h2 {
-    color: #691E06;
+    color: #FBBA72;
     text-align: center;
     font-family: "Space Grotesk", Helvetica, sans-serif;
   }
   .opener p {
-    color: #691E06;
+    color: #FBBA72;
     text-align: center;
     font-family: "Hahmlet", Helvetica, sans-serif;
   }
@@ -176,7 +183,7 @@ body {
     align-items: center;
     box-shadow: 0 0 5px #691E06;
     transition: box-shadow 0.3s;
-    background-color: #CA5310;
+    background-color: #FBBA72;
   }
 
   .vsection:nth-child(even) {
@@ -207,7 +214,7 @@ body {
     font-family: "Hahmlet", Helvetica, sans-serif;
     max-width: 60%;
     margin-left: 20px;
-    color: #FBBA72;
+    color: #691E06;
   }
   .vsection img {
     width: 500px;
@@ -220,6 +227,6 @@ body {
   }
   
 body {
-    background-color: #FBBA72;
+    background-color: #BB4D00;
     font-family: "Hahmlet", Helvetica, sans-serif;
 }

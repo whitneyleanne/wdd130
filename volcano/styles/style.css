@@ -166,6 +166,12 @@ body {
     font-family: "Hahmlet", Helvetica, sans-serif;
   }
 
+  .opener {
+    max-width: 900px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+  }
+
   .opener h2 {
     color: #FBBA72;
     text-align: center;
